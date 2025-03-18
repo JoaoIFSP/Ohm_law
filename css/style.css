@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo claro para o body */
+    color: #4d4d4d; /* Texto em cinza suave que combina com o estilo Blue and Mint */
+}
+
+/* HEADER */
+header {
+    background-color: #0a3d68; /* Azul escuro para o header */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #00e6c0; /* Mint para a logo */
+    font-size: 250%;
+    font-weight: bold;
+    margin-right: 20px;  /* Espaço entre logo e links */
+    padding-right: 20px;
+}
+
+.iconesq{
+
+    color: #d6d6d6;
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit;
+
+}
+
+.itens {
+    gap: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links button {
+    padding: 8px 12px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.nav-links button:hover {
+    opacity: 0.8;
+}
+
+.special-btn {
+    padding: 12px 20px; /* Aumenta o espaçamento interno */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px; /* Ajuste da borda arredondada */
+    border: 1px solid white;
+    transition: all 0.3s ease; /* Transição suave para a troca de cores */
+}
+
+.special-btn:hover {
+    background: #00e6c0;  /* Mint no fundo */
+    color: #0a3d68;  /* Azul escuro no texto */
+    border: 1px solid #0a3d68;  /* Borda azul escuro */
+}
+
+/* MAIN DIVISION */
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    width: 40%;
+    background: linear-gradient(to bottom, #00e6c0, #0a3d68); /* Degradê mint para azul escuro */
+}
+
+.right-side {
+    width: 60%;
+    background-color: #0a3d68; /* Azul escuro para o fundo da direita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.content-container {
+    max-width: 400px;
+    text-align: center;
+}
+
+.content-container h1 {
+    margin-bottom: 20px;
+    color: #d6d6d6; /* Título em branco para um bom contraste no fundo escuro */
+}
+
+.content-container p {
+    margin-bottom: 20px;
+    color: #d6d6d6; /* Texto em cinza claro para contraste adequado */
+}
+
+.content-container button {
+    padding: 10px 20px;
+    background-color: #00e6c0; /* Mint para o botão */
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.content-container button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .left-side, .right-side {
+        width: 100%;
+    }
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #4d4d4d; /* Cor do texto */
+}
+
+/* HEADER */
+header {
+    background-color: #0a3d68; /* Azul escuro */
+    color: white;
+    padding: 1%;
+    width: 100%;
+}
+
+.logo {
+    font-size: 250%;
+    font-weight: bold;
+    color: #00e6c0; /* Mint para a logo */
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* INTRO (descrição breve) */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    color: #0a3d68;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #4d4d4d;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+/* OPTIONS (divs clicáveis) */
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+.option {
+    background-color: #00e6c0; /* Mint */
+    padding: 15px 30px;
+    color: #0a3d68; /* Azul escuro */
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.option button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #0a3d68; /* Azul escuro no hover */
+    color: white; /* Texto branco no hover */
+}
+
+.option a {
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
