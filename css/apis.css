@@ -1,0 +1,74 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D0D0D; /* Preto */
+    color: #E0FBFC; /* Branco Azulado */
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #1B1F3B; /* Azul Marinho */
+    color: #E0FBFC;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(27, 31, 59, 0.8); /* Azul Marinho com transparência */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 168, 232, 0.3);
+    backdrop-filter: blur(10px); /* Efeito Glassmorphism */
+}
+
+.intro {
+    font-size: 20px;
+    color: #00A8E8; /* Azul Neon */
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #E0FBFC; /* Branco Azulado */
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 18px;
+    color: #E0FBFC; /* Branco Azulado */
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #FF4081; /* Rosa Vibrante */
+}
+
+/* FOOTER */
+footer {
+    background-color: #1B1F3B; /* Azul Marinho */
+    color: #E0FBFC;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
