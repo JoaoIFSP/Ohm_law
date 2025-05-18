@@ -7,18 +7,18 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0D0D0D; /* Preto */
-    color: #E0FBFC; /* Branco Azulado */
+    background-color: #F4F8F7; /* Branco esverdeado suave */
+    color: #1F2937; /* Azul acinzentado escuro */
     line-height: 1.6;
 }
 
 /* HEADER */
 header {
-    background-color: #1B1F3B; /* Azul Marinho */
-    color: #E0FBFC;
+    background-color: #0077B6; /* Azul tecnológico */
+    color: #FFFFFF;
     text-align: center;
     padding: 40px 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -31,41 +31,45 @@ header h1 {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: rgba(27, 31, 59, 0.8); /* Azul Marinho com transparência */
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo claro com transparência */
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 168, 232, 0.3);
-    backdrop-filter: blur(10px); /* Efeito Glassmorphism */
+    box-shadow: 0 4px 12px rgba(247, 127, 0, 0.2); /* Sombra laranja suave */
+    backdrop-filter: blur(10px); /* Efeito glassmorphism */
 }
 
+/* INTRO */
 .intro {
     font-size: 20px;
-    color: #00A8E8; /* Azul Neon */
+    color: #43AA8B; /* Verde tecnológico */
     margin-bottom: 30px;
 }
 
+/* TÍTULOS DE SEÇÃO */
 .section-title {
     font-size: 28px;
     font-weight: bold;
-    color: #E0FBFC; /* Branco Azulado */
+    color: #0077B6; /* Azul escuro institucional */
     margin-bottom: 15px;
 }
 
+/* PARÁGRAFOS */
 .text {
     font-size: 18px;
-    color: #E0FBFC; /* Branco Azulado */
+    color: #1F2937; /* Texto escuro */
     margin-bottom: 25px;
     line-height: 1.8;
 }
 
+/* DESTAQUE */
 .highlight {
     font-weight: bold;
-    color: #FF4081; /* Rosa Vibrante */
+    color: #F77F00; /* Laranja vibrante para ênfase */
 }
 
 /* FOOTER */
 footer {
-    background-color: #1B1F3B; /* Azul Marinho */
-    color: #E0FBFC;
+    background-color: #0077B6;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px;
     position: fixed;
